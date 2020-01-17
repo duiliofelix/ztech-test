@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'rest_auth.registration',
 
     # Custom apps
+    'movies.apps.MoviesConfig',
     'users.apps.UsersConfig',
 ]
 
