@@ -30,6 +30,7 @@ class Movie(models.Model):
 
     cast = models.ManyToManyField(
         Actor,
+        related_name='movies',
     )
 
     created_at = models.DateTimeField(

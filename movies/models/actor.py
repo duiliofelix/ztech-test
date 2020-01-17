@@ -7,7 +7,7 @@ class Actor(models.Model):
         unique=True,
     )
 
-    age = models.IntegerField()
+    birth_date = models.DateField()
 
     created_at = models.DateTimeField(
         auto_now_add=True,
